@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- para rodar ok no edge -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador de Texto</title>
+    </head>
+    <body class="body">
+        <header class="cabecalho">
+            <img src="./img/logo-alura-desktop.png"> 
+            <h2> Bem-vindo ao Decodificador</h2>
+            <h3 id="hoje"></h3>
+        </header>
+
+        <main class="apresentacao">
+
+            <section class="apresentacao__conteudo">
+                <textarea id="textarea" autofocus required rows="20" cols="45" type="text" placeholder="Digite seu texto" onChange="limparAreas()" class="apresentacao__conteudo__input"></textarea>
+
+                <section class="apresentacao__conteudo__orientacao__e__botoes">
+                    <div class="apresentacao__conteudo__orientacao">
+                        <img src="./img/exclama.png"> 
+                        <p> Apenas letras minúsculas e sem acento! </p>
+                    </div>
+                    <div class="apresentacao__conteudo__botoes">
+                        <button class="apresentacao__botao__criptografar" onClick="criptografar()">Criptografar</button>
+                        <button class="apresentacao__botao__descriptografar" onClick="descriptografar()">Descriptografar</button>
+                    </div>
+                </section>
+            </section>
+
+            <div class="apresentacao__conteudo__resultado"> <!--  flex col just-center e center -->
+                <div class="imagemETextos">
+                    <img id="imagemLupa" src="./img/imagem-pessoa-lupa.svg" class="imagemLupa">
+                    <div id="textoNaoInformado" class="textoNaoInformado">
+                        <p class="textoVazio" id="textoVazio" value="Teste">Nenhuma mensagem encontrada</p>
+                        <p class="textoVazioDigite" id="textoVazioDigite" value="Teste1">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            
+                <section id="resultEBotaoCopiar" class="resultEBotaoCopiar"> <!-- flex col just-space-evenly e center -->
+                    <p id="resultado" class="resultado"></p>
+                    <button id="botaoCopiar" class="botao__copiar" onClick="copiar()">Copiar</button>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer"><h5>Desenvolvido por DFS</h5></footer>
+
+        <script src="app.js" defer></script>
+    </body>
+</html>
+
