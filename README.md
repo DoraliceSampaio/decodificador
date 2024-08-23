@@ -1,4 +1,6 @@
 # <h1> Codificador / Decodificador de Texto </h1>
+<h2> Este projeto codifica um texto mediante regras pré-definidas e também decodifica o texto codificado. Será solicitada autorização para a reprodução do audio de boas-vindas e pedido de inserção de texto. </h2>
+
 <img src=".\img\readme\Capa.jpg">
 
 <h4> É solicitado, por texto e voz feminina, que o usuário digite um texto para ser codificado. </h4>
@@ -17,14 +19,15 @@
 <img src=".\img\readme\Scroll vertical1.jpg">
 <img src=".\img\readme\Scroll vertical2.jpg">
 
-<h4> Há alguma responsividade para tablet (até 768px) 
-  ![image](https://github.com/user-attachments/assets/e12f57fc-7953-4dd1-a6cc-823f75323dd3)
+<h4> Há alguma responsividade para tablet (até 768px)  </h4>
 
-  e celular (até 375px).
+  ![image](https://github.com/user-attachments/assets/b0c5c247-39cd-484c-904c-fa5e6767aab1)
+
+
+  <h4>e celular (até 375px).</h4>
 
   ![image](https://github.com/user-attachments/assets/ca41ec3d-31a5-49c7-b239-3d1f3cc7944d)
 
-</h4>
 
 <h5>Tecnologias utilizadas:</h5>
 <ul>
