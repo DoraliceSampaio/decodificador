@@ -1,5 +1,11 @@
 # <h1> Codificador / Decodificador de Texto </h1>
-<h2> Este projeto codifica um texto mediante regras pré-definidas e também decodifica o texto codificado. Será solicitada autorização para a reprodução do audio de boas-vindas e pedido de inserção de texto. </h2>
+<h2> Este projeto codifica um texto mediante regras pré-definidas e também decodifica o texto codificado. Será solicitada autorização para a reprodução de audio bem como a inserção do texto a ser codificado. </h2>
+
+<h2>
+https://decodificador-omega-lake.vercel.app/
+
+</h2>
+
 
 <img src=".\img\readme\Capa.jpg">
 
@@ -15,11 +21,11 @@
 <h4> O texto codificado será copiado e colado no retângulo à esquerda e o usuário deve clicar em Descriptografar. Então o texto decodificado será exibido à direita.  </h4>
 <img src=".\img\readme\Texto decodificado.jpg">
 
-<h4> Quando os textos codificados e decodificados excederem a área delimitada na tela, automaticamente serão ativadas as barras de rolagem vertical. </h4>
+<h4> Quando os textos codificados e decodificados excederem a área delimitada na tela, automaticamente serão ativadas as barras verticais de rolagem. </h4>
 <img src=".\img\readme\Scroll vertical1.jpg">
 <img src=".\img\readme\Scroll vertical2.jpg">
 
-<h4> Há alguma responsividade para tablet (até 768px)  </h4>
+<h4> Há responsividade para tablet (até 768px)  </h4>
 
   ![image](https://github.com/user-attachments/assets/b0c5c247-39cd-484c-904c-fa5e6767aab1)
 
